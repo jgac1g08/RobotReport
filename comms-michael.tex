@@ -1,7 +1,36 @@
-\subsection{Why do we need it and what do we need Spec  m}
+\subsection{Communications Overview}
 
-\subsection{Communications Overview m}
+What is it, why do we need it and a spec of sorts. Then explain the layered structure.
 
-\subsection{Physical Layer m}
 
-\subsection{Neighbor to Neighbor Packet Layer m}
+The aim of this project was to produce a general-purpose modular robotics platform - and any form of general-purpose modular robot requires some form of communications between modules. When designing the communication system for this project we had a number of specifications we wished to meet, summarized below:
+
+\begin{itemize}
+\item Reliable neighbor to neighbor data transmission between connected modules [High priority].
+\item Modules should be able to communicate between modules connected to all six connection ports [High priority].
+\item Modules should be capable of choosing which data is sent to which connection ports - i.e. they should be able to direct their data transmission and not just broadcast it [High priority].
+\item Masterless operation should be possible - no module should need to be designated as a `master' node -  the system should work if all modules are identical [High priority].
+\item Full duplex operation should be possible - modules should be able to send data as they are receiving [Medium priority].
+\item Modules should be able to determine which connection port data is sent from, to enable inference of the physical structure of the modular robot system [Medium priority].
+\item The communications system should be scalable with the number of connected robots and capable of supporting a reasonably large sized communications network [Medium priority].
+\end{itemize}
+
+%We also had a number of constraints by virtue of the technology available to us and our budget. Some were apparent initially and others were discovered after research. They are listed below:
+
+%\begin{itemize}
+%\item
+%\end{itemize}
+
+Below we describe the design of the communication system for this project. In order to simplify design, implementation and understanding of this system we split it up into a number of `layers' which build upon each other to create a working communication stack. We begin with the bottommost layer: the \emph{physical layer}, which is responsible for transmitting and receiving raw bytes to and from the connection ports, and contains the physical hardware used to do this. We then move on to the \emph{neighbor to neighbor packet layer}, building on the physical layer which handles reliable communications between connected devices. The network layer then builds directly on the neighbor to neighbor packet layer, responsible for transmitting packets across a network of connected modules. Finally the \emph{application layer} builds directly on both the neighbor to neighbor and network layers, and is the layer responsible for utilizing the communications system and doing useful work.
+
+\subsection{Physical Layer}
+
+The physical layer has a simple responsibility: transmitting and receiving bytes of data to and from each of the six connection ports, according to the specification detailed above. A number of technologies were considered for the physical layer implementation.
+
+Using I$^{2}$C was seen as a possible method for communication. The ATMega644P chip used to implement this project incorporates an I$^{2}$C controller, meaning implementing a bus would be trivial. However, although I$^{2}$C is specifically designed for communicating between a large number of connected components, implementing a masterless system with identical modules would not be easy. I$^{2}$C has a requirement that a single pair of pullup resistors be added to the bus. In order to fulfill this requirement and keep all modules identical pullups would need to be added to every device, which would affect scalability, since a large number of pullups on the line would degrade performance, and possibly stop the system working at all.
+
+Additionally, I$^{2}$C would not allow any form of inference of physical structure, since all devices are connected to a single bus. This means that there is no simple way of determining which connection port incoming messages are being received from, or indeed any way of sending messages specifically to one connection port and not others.
+
+After much research and preliminary design work it was decided to use the simple UART serial ports on the ATMega644P for communication. Due to the reasonably unusual requirements of this project, i.e. the requirement that six modules be communicated with separately,
+
+\subsection{Neighbor to Neighbor Packet Layer}
