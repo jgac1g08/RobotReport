@@ -9,11 +9,69 @@ Overview \dots
 \section{Communication}
 Communication \dots
 
+%%------------------------------------------------------------------
 \section{Sensors}
-Sensors \dots
+%%------------------------------------------------------------------
 
+
+
+%%------------------------------------------------------------------
 \section{PCB Design}
-PCB Design \dots
+%%------------------------------------------------------------------
+\subsection{Advantages of PCB Design}
+PCB circuit design is more compact and reliable than breadboard or stripboard based circuit. It also allows for the use of surface mount type components which both allows for further compactness and increases the range of available components that may be used.
+Components used in the final circuit design were SOIC type surface mount components as these are small enough to allow for the proper compactness of the circuit, but can be soldered by hand. This increased the speed at which they could be constructed.
 
+\subsection{Constraints}
+The PCB was designed to be compatible with the Spirit Circuits Go Naked free prototyping service. This is a service whereby one copy of a PCB design is constructed for free, this allows a design to be refined before committing it to a production run. The constraints in place on this service are that the design can only include top and bottom copper layers and a drilling pattern.
+
+\tref{Table:constraints} shows the minimum widths and distances for PCB construction with Spirit Circuits.
+\begin{table}[!htb]
+	\centering
+	\begin{tabular}{cc}
+	\toprule
+	\textbf{Feature} & \textbf{Constraint}\\
+	\midrule
+	Minimum Track Width & 0.15mm (6mil) \\
+	Minimum copper-copper spacing & 0.15mm (6mil) \\
+	Minimum hole diameter & 0.3mm (12mil) \\
+	\bottomrule
+	\end{tabular}
+	\caption{The Physical Design Constraints}
+	\label{Table:constraints}
+\end{table}
+
+Other constraints on the design of the PCB come from the size of the physical chassis in which the circuit has to fit. The physical chassis size is based around the two servos; the space available for the circuit was measured as 120mm x 35mm.
+
+\subsection{Design}
+The circuit was designed, as part of the earlier work on the communication between modules, in cadence's OrCad software and the design of the PCB was done in National Instruments Utiliboard. Unfortunately it was not possible to copy the circuit across directly from one software to the other nor was it possible to copy the circuit into cadence's PCB design software as an intermediary software was not installed on the computers used. Because of this the circuit had to be copied across manually.
+
+The components were first placed, including headers, and then arranged so that components are close to the headers associated with them but still have enough room around them to route copper properly. Components were then wired together as per the circuit diagram. As many of the unused pins as possible were broken out from the microcontroller.
+
+\begin{figure}[!htb]
+  	\centering
+  	\includegraphics[width=\textwidth]{Figures/MainPCBDesign.png}
+  	\caption{The Design for the Main Board}
+ 	\label{Figure:MainPCBDesign}
+\end{figure}
+
+In order to maximise the efficiency of the design routing has been mostly done so the horizontal wiring is on the bottom copper layer and vertical wiring is on the top copper layer and connections between these to are done with vias. At points this wiring scheme is impossible; for instance the microcontroller has both horizontal and vertical connections on the top copper layer.
+
+Many of the sensors considered for use with the robot are only available in surface mount packages so in order to interface with them another PCB had to be designed, the particular packages of the sensors mean that they had to be soldered using solder paste and an oven. Some of the pin layouts for the sensors were non-standard so had to be manually constructed from measurements in the datasheets for use on the PCB.
+
+\begin{figure}[!htb]
+  	\centering
+  	\includegraphics[width=0.5\textwidth]{Figures/SensorPCBDesign.png}
+  	\caption{The Design for the Sensor Board}
+ 	\label{Figure:SensorPCBDesign}
+\end{figure}
+
+The sensor board was made separate from the main board in order to keep the main board design as general as possible. At 15mm x 36mm the sensor board was designed to fit into the chassis in either orientation for maximum versatility.
+
+As further copies of the main board were needed for our system (it having been verified as working correctly) as well as the sensor board these were taken and panelised onto a standard eurocard sized board and send of again for another free prototype.
+
+
+%%------------------------------------------------------------------
 \section{Summary etc}
+%%------------------------------------------------------------------
 Summary \dots

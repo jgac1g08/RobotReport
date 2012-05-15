@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.14)  14 MAY 2012 15:22
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.14)  15 MAY 2012 19:18
 entering extended mode
-**H:/mydocuments/Robots/Report/Report.tex
-(H:/mydocuments/Robots/Report/Report.tex
+**H:/mydocuments/RobotReport/Report.tex
+(H:/mydocuments/RobotReport/Report.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -488,24 +488,24 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 7.
 
-(H:\mydocuments\Robots\Report\Definitions.tex
+(H:\mydocuments\RobotReport\Definitions.tex
 \c@address=\count137
 \c@alg=\count138
 )
-(H:\mydocuments\Robots\Report\Report.aux
-(H:\mydocuments\Robots\Report\Introduction.aux)
-(H:\mydocuments\Robots\Report\SystemOverview.aux)
-(H:\mydocuments\Robots\Report\ElectroMechDesign.aux)
-(H:\mydocuments\Robots\Report\ModuleElecDesign.aux)
-(H:\mydocuments\Robots\Report\Simulation.aux)
-(H:\mydocuments\Robots\Report\Results.aux)
-(H:\mydocuments\Robots\Report\Projectmanagement.aux)
-(H:\mydocuments\Robots\Report\Conclusions.aux)
-(H:\mydocuments\Robots\Report\FurtherWork.aux)
-(H:\mydocuments\Robots\Report\AppendixA.aux)
-(H:\mydocuments\Robots\Report\AppendixB.aux)
-(H:\mydocuments\Robots\Report\AppendixC.aux)
-(H:\mydocuments\Robots\Report\AppendixD.aux))
+(H:\mydocuments\RobotReport\Report.aux
+(H:\mydocuments\RobotReport\Introduction.aux)
+(H:\mydocuments\RobotReport\SystemOverview.aux)
+(H:\mydocuments\RobotReport\ElectroMechDesign.aux)
+(H:\mydocuments\RobotReport\ModuleElecDesign.aux)
+(H:\mydocuments\RobotReport\Simulation.aux)
+(H:\mydocuments\RobotReport\Results.aux)
+(H:\mydocuments\RobotReport\Projectmanagement.aux)
+(H:\mydocuments\RobotReport\Conclusions.aux)
+(H:\mydocuments\RobotReport\FurtherWork.aux)
+(H:\mydocuments\RobotReport\AppendixA.aux)
+(H:\mydocuments\RobotReport\AppendixB.aux)
+(H:\mydocuments\RobotReport\AppendixC.aux)
+(H:\mydocuments\RobotReport\AppendixD.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
@@ -556,10 +556,8 @@ LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
 
-(H:\mydocuments\Robots\Report\Report.out)
-(H:\mydocuments\Robots\Report\Report.out)
+(H:\mydocuments\RobotReport\Report.out) (H:\mydocuments\RobotReport\Report.out)
 \@outlinefile=\write3
-
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
  Title Page
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
@@ -587,7 +585,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
  Table of Contents
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-(H:\mydocuments\Robots\Report\Report.toc [5
+(H:\mydocuments\RobotReport\Report.toc [5
 
 ])
 \tf@toc=\write4
@@ -595,7 +593,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
  List of Figures
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-(H:\mydocuments\Robots\Report\Report.lof)
+(H:\mydocuments\RobotReport\Report.lof)
 \tf@lof=\write5
  [7
 
@@ -606,7 +604,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
  List of Tables
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-(H:\mydocuments\Robots\Report\Report.lot)
+(H:\mydocuments\RobotReport\Report.lot)
 \tf@lot=\write6
  [9
 
@@ -616,14 +614,14 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
  Table of Contents
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-(H:\mydocuments\Robots\Report\Report.lol)
+(H:\mydocuments\RobotReport\Report.lol)
 \tf@lol=\write7
  [11
 
 ] [12
 
 ]
-(H:\mydocuments\Robots\Report\Introduction.tex
+(H:\mydocuments\RobotReport\Introduction.tex
 Chapter 1.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
@@ -631,7 +629,7 @@ Chapter 1.
 
 
 
-] (H:\mydocuments\Robots\Report\SystemOverview.tex [2
+] (H:\mydocuments\RobotReport\SystemOverview.tex [2
 
 
 
@@ -639,7 +637,7 @@ Chapter 1.
 Chapter 2.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [3] (H:\mydocuments\Robots\Report\ElectroMechDesign.tex [4
+) [3] (H:\mydocuments\RobotReport\ElectroMechDesign.tex [4
 
 
 
@@ -647,7 +645,7 @@ Chapter 2.
 Chapter 3.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [5] (H:\mydocuments\Robots\Report\ModuleElecDesign.tex [6
+) [5] (H:\mydocuments\RobotReport\ModuleElecDesign.tex [6
 
 
 
@@ -655,7 +653,16 @@ Chapter 3.
 Chapter 4.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [7] (H:\mydocuments\Robots\Report\Simulation.tex [8
+[7] <Figures/MainPCBDesign.png, id=286, 956.82469pt x 289.08pt>
+File: Figures/MainPCBDesign.png Graphic file (type png)
+
+<use Figures/MainPCBDesign.png> [8 <H:/mydocuments/RobotReport/Figures/MainPCBD
+esign.png (PNG copy)>]
+<Figures/SensorPCBDesign.png, id=292, 478.78876pt x 228.855pt>
+File: Figures/SensorPCBDesign.png Graphic file (type png)
+
+<use Figures/SensorPCBDesign.png>) [9 <H:/mydocuments/RobotReport/Figures/Senso
+rPCBDesign.png (PNG copy)>] (H:\mydocuments\RobotReport\Simulation.tex [10
 
 
 
@@ -663,7 +670,7 @@ Chapter 4.
 Chapter 5.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [9] (H:\mydocuments\Robots\Report\Results.tex [10
+) [11] (H:\mydocuments\RobotReport\Results.tex [12
 
 
 
@@ -671,7 +678,7 @@ Chapter 5.
 Chapter 6.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [11] (H:\mydocuments\Robots\Report\Projectmanagement.tex [12
+) [13] (H:\mydocuments\RobotReport\Projectmanagement.tex [14
 
 
 
@@ -679,7 +686,7 @@ Chapter 6.
 Chapter 7.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [13] (H:\mydocuments\Robots\Report\Conclusions.tex [14
+) [15] (H:\mydocuments\RobotReport\Conclusions.tex [16
 
 
 
@@ -687,7 +694,7 @@ Chapter 7.
 Chapter 8.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [15] (H:\mydocuments\Robots\Report\FurtherWork.tex [16
+) [17] (H:\mydocuments\RobotReport\FurtherWork.tex [18
 
 
 
@@ -695,7 +702,7 @@ Chapter 8.
 Chapter 9.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [17] (H:\mydocuments\Robots\Report\AppendixA.tex [18
+) [19] (H:\mydocuments\RobotReport\AppendixA.tex [20
 
 
 
@@ -703,7 +710,7 @@ Chapter 9.
 Appendix A.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [19] (H:\mydocuments\Robots\Report\AppendixB.tex [20
+) [21] (H:\mydocuments\RobotReport\AppendixB.tex [22
 
 
 
@@ -711,7 +718,7 @@ Appendix A.
 Appendix B.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [21] (H:\mydocuments\Robots\Report\AppendixC.tex [22
+) [23] (H:\mydocuments\RobotReport\AppendixC.tex [24
 
 
 
@@ -719,7 +726,7 @@ Appendix B.
 Appendix C.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [23] (H:\mydocuments\Robots\Report\AppendixD.tex [24
+) [25] (H:\mydocuments\RobotReport\AppendixD.tex [26
 
 
 
@@ -727,55 +734,56 @@ Appendix C.
 Appendix D.
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-) [25] [26
+) [27] [28
 
 
 ]
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
  Bibliography
 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
-(H:\mydocuments\Robots\Report\Report.bbl)
+(H:\mydocuments\RobotReport\Report.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
- [27
+ [29
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
 
-(H:\mydocuments\Robots\Report\Report.aux
-(H:\mydocuments\Robots\Report\Introduction.aux)
-(H:\mydocuments\Robots\Report\SystemOverview.aux)
-(H:\mydocuments\Robots\Report\ElectroMechDesign.aux)
-(H:\mydocuments\Robots\Report\ModuleElecDesign.aux)
-(H:\mydocuments\Robots\Report\Simulation.aux)
-(H:\mydocuments\Robots\Report\Results.aux)
-(H:\mydocuments\Robots\Report\Projectmanagement.aux)
-(H:\mydocuments\Robots\Report\Conclusions.aux)
-(H:\mydocuments\Robots\Report\FurtherWork.aux)
-(H:\mydocuments\Robots\Report\AppendixA.aux)
-(H:\mydocuments\Robots\Report\AppendixB.aux)
-(H:\mydocuments\Robots\Report\AppendixC.aux)
-(H:\mydocuments\Robots\Report\AppendixD.aux))
+(H:\mydocuments\RobotReport\Report.aux
+(H:\mydocuments\RobotReport\Introduction.aux)
+(H:\mydocuments\RobotReport\SystemOverview.aux)
+(H:\mydocuments\RobotReport\ElectroMechDesign.aux)
+(H:\mydocuments\RobotReport\ModuleElecDesign.aux)
+(H:\mydocuments\RobotReport\Simulation.aux)
+(H:\mydocuments\RobotReport\Results.aux)
+(H:\mydocuments\RobotReport\Projectmanagement.aux)
+(H:\mydocuments\RobotReport\Conclusions.aux)
+(H:\mydocuments\RobotReport\FurtherWork.aux)
+(H:\mydocuments\RobotReport\AppendixA.aux)
+(H:\mydocuments\RobotReport\AppendixB.aux)
+(H:\mydocuments\RobotReport\AppendixC.aux)
+(H:\mydocuments\RobotReport\AppendixD.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: EBA516922A2B67AD36F69EF5A658E4FF;4357.
+(rerunfilecheck)             Checksum: 001D5D206F60EA291EA4E4DC839D107C;4847.
  ) 
 Here is how much of TeX's memory you used:
- 10263 strings out of 494053
- 146110 string characters out of 3146176
- 236073 words of memory out of 3000000
- 13196 multiletter control sequences out of 15000+200000
- 11670 words of font info for 43 fonts, out of 3000000 for 9000
+ 10292 strings out of 494053
+ 146424 string characters out of 3146176
+ 237243 words of memory out of 3000000
+ 13212 multiletter control sequences out of 15000+200000
+ 11971 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 48i,11n,45p,387b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,11n,45p,565b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on Report.pdf (39 pages, 145324 bytes).
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+Output written on Report.pdf (41 pages, 261721 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

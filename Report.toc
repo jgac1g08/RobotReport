@@ -14,20 +14,23 @@
 \contentsline {section}{\numberline {4.2}Communication}{7}{section.18}
 \contentsline {section}{\numberline {4.3}Sensors}{7}{section.19}
 \contentsline {section}{\numberline {4.4}PCB Design}{7}{section.20}
-\contentsline {section}{\numberline {4.5}Summary etc}{7}{section.21}
-\contentsline {chapter}{\numberline {5}Simulation}{9}{chapter.22}
-\contentsline {section}{\numberline {5.1}Overview}{9}{section.23}
-\contentsline {section}{\numberline {5.2}Modelling}{9}{section.24}
-\contentsline {section}{\numberline {5.3}Movement}{9}{section.25}
-\contentsline {section}{\numberline {5.4}Communication}{9}{section.26}
-\contentsline {section}{\numberline {5.5}Gaits}{9}{section.27}
-\contentsline {section}{\numberline {5.6}Summary etc}{9}{section.28}
-\contentsline {chapter}{\numberline {6}Results}{11}{chapter.29}
-\contentsline {chapter}{\numberline {7}Project Management}{13}{chapter.30}
-\contentsline {chapter}{\numberline {8}Conclusions}{15}{chapter.31}
-\contentsline {chapter}{\numberline {9}Further Work}{17}{chapter.32}
-\contentsline {chapter}{\numberline {A}Breakdown of Labour}{19}{appendix.33}
-\contentsline {chapter}{\numberline {B}Minutes}{21}{appendix.34}
-\contentsline {chapter}{\numberline {C}Budget}{23}{appendix.35}
-\contentsline {chapter}{\numberline {D}Gantt Charts}{25}{appendix.36}
-\contentsline {chapter}{Bibliography}{27}{dummy.37}
+\contentsline {subsection}{\numberline {4.4.1}Advantages of PCB Design}{7}{subsection.21}
+\contentsline {subsection}{\numberline {4.4.2}Constraints}{7}{subsection.22}
+\contentsline {subsection}{\numberline {4.4.3}Design}{8}{subsection.24}
+\contentsline {section}{\numberline {4.5}Summary etc}{9}{section.27}
+\contentsline {chapter}{\numberline {5}Simulation}{11}{chapter.28}
+\contentsline {section}{\numberline {5.1}Overview}{11}{section.29}
+\contentsline {section}{\numberline {5.2}Modelling}{11}{section.30}
+\contentsline {section}{\numberline {5.3}Movement}{11}{section.31}
+\contentsline {section}{\numberline {5.4}Communication}{11}{section.32}
+\contentsline {section}{\numberline {5.5}Gaits}{11}{section.33}
+\contentsline {section}{\numberline {5.6}Summary etc}{11}{section.34}
+\contentsline {chapter}{\numberline {6}Results}{13}{chapter.35}
+\contentsline {chapter}{\numberline {7}Project Management}{15}{chapter.36}
+\contentsline {chapter}{\numberline {8}Conclusions}{17}{chapter.37}
+\contentsline {chapter}{\numberline {9}Further Work}{19}{chapter.38}
+\contentsline {chapter}{\numberline {A}Breakdown of Labour}{21}{appendix.39}
+\contentsline {chapter}{\numberline {B}Minutes}{23}{appendix.40}
+\contentsline {chapter}{\numberline {C}Budget}{25}{appendix.41}
+\contentsline {chapter}{\numberline {D}Gantt Charts}{27}{appendix.42}
+\contentsline {chapter}{Bibliography}{29}{dummy.43}
