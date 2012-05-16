@@ -45,7 +45,16 @@ SERIAL SPEC I.E. BAUD RATE, PARITY BITS, BITS PER BYTE THING etc
 
 \subsection{Neighbor to Neighbor Packet Layer}
 
-The neighbor to neighbor packet layer builds upon the physical layer to enable the reliable transmission and receiving of `packets' of data over the connection ports. This layer is implemented in software on-board the microcontroller - a state machine representation of the receive logic for this layer can be seen in figure \ref{fig:state-machine-packet-layer-rx} and the transmit logic in figure \ref{fig:state-machine-packet-layer-tx}.
+The neighbor to neighbor packet layer builds upon the physical layer to enable the reliable transmission and receiving of `packets' of data over the connection ports. This layer is implemented in software on-board the microcontroller - a state machine representation of the receive logic for this layer can be seen in figure \ref{fig:state-machine-packet-layer-rx} and the transmit logic in figure \ref{fig:state-machine-packet-layer-tx}. Interrupts and the onboard timers of the ATMega644P have been used in the C++ implementation of this logic to make the system as responsive as possible.
+
+The basic network packet structure can be seen in figure \ref{fig:neighbor-neighbor-packet}. The length flag holds the number of bytes in the remainder of the packet (including the flags, command and data bytes), the flags byte contains 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.0\textwidth]{Figures/neighbor-neighbor-packet.png}
+	\caption{Neighbor to neighbor packet layer packet structure. Each box represents a single byte.}
+	\label{fig:neighbor-neighbor-packet}    
+\end{figure}
 
 \begin{figure}[h]
 	\centering
