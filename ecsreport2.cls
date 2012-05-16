@@ -36,9 +36,9 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{2.0ex plus0.5ex minus0.2ex}
 \usepackage{vmargin}
-\setmarginsrb           { 0.7in}  % left margin
+\setmarginsrb           { 0.9in}  % left margin
                         { 0.6in}  % top margin
-                        { 0.7in}  % right margin
+                        { 0.9in}  % right margin
                         { 0.8in}  % bottom margin
                         {  20pt}  % head height
                         {0.25in}  % head sep
