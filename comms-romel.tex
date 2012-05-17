@@ -13,7 +13,7 @@ If a module that wants to send a message to another module, it first construct t
 
 \begin{figure}[htb]
 \centering
-\includegraphics[scale = 0.7]{figures/send_algorithm.png}
+\includegraphics[scale = 0.35]{figures/send_algorithm.png}
 \caption{Basic Sending Algorithm}
 \label{fig:sending_algorithm}
 \end{figure}
@@ -22,7 +22,7 @@ Each module has a queue that stores the Packet ID, Source ID and Destination ID 
 
 \begin{figure}[htb]
 \centering
-\includegraphics[scale = 0.7]{figures/receive_algorithm.png}
+\includegraphics[scale = 0.35]{figures/receive_algorithm.png}
 \caption{Basic Receiving Algorithm}
 \label{fig:receiving_algorithm}
 \end{figure}
@@ -48,7 +48,28 @@ Each module has a queue that stores the Packet ID, Source ID and Destination ID 
 	}
  \end{table}
 
-The REQUEST ID command asks to an attached module to return its ID. The RETURN ID command returns the ID of the current module to an attached module (that has previously sent a REQUEST ID command), whenever a RETURN ID command is received the module saves the returned ID in a routing table that stored what module is connected to what port. The REQUEST ROUTING command asks to an attached module to return its routing table. The REQUEST ROUTING command returns the routing table of the current module to an attached module (that has previously sent a REQUEST ROUTING command). The NETWORK ACKNOWLEDGE command returns an acknowledgment packet to a specified module (through its ID) on the network. The MOVE TOP SERVO and MOVE BOTTOM SERVO commands move the top or the bottom servomotors in the module to the specified position 
+The {\bf request\_id} command asks to an attached module to return its ID. The  {\bf return\_id} command returns the ID of the current module to an attached module (that has previously sent a  {\bf request\_id} command), whenever a {\bf return\_id} command is received the module saves the returned ID in a routing table that stored what module is connected to what port. The {\bf request\_routing} command asks to an attached module to return its routing table. The {\bf return\_routing} command returns the routing table of the current module to an attached module (that has previously sent a {\bf request\_routing} command). The {\bf network\_acknowledge} command returns an acknowledgment packet to a specified module (through its ID) on the network. The {\bf move\_top\_servo} and {\bf move\_bottom\_servo} commands move the top or the bottom servomotors in the module to the specified position 
 
 
-\subsection{Prototyping and Implementation - r}
+
+\subsection{Prototyping and Implementation}
+
+The circuits for the robot were implemented in breadboard and tested and also implemented in stripboard (in case that the pcb's did not arrive on time). The result's are shown in the figure \ref{fig:prototype}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale = 0.4]{figures/bred_strip.pdf}
+\caption{Proptotypes for the circuit boards of the robot. Done in bread-board (bottom) and the prototype made in strip-board (top)}
+\label{fig:prototype}
+\end{figure}
+
+After the design was done, one of the biggest problems we faced was the powering of the modules. Only one battery arrived and the charger that we bought could not charge the batteries properly as we expected. We decided to power the modules straight from a DC power supply and made the necessary arrangements on the boards to support this. The problem with using a DC power supply is that requires lots of wiring and long wires between the power supply. This long wires increase the resistance in the circuit ground, when the servo moves a strong peak current passes to the circuit ground and goes through the long wire to the power supply ground as shown in the figure \ref{fig:supply_problem}, therefore the ground in the circuit is lifted and can cause the circuit to reset randomly. With the batteries we would not face this problem because the connection between the circuit ground and battery ground would be short.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale = 0.2]{figures/longwire.png}
+\caption{Problem with the power supply connection}
+\label{fig:supply_problem}
+\end{figure}
+
+
