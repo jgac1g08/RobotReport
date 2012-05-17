@@ -45,9 +45,25 @@ SERIAL SPEC I.E. BAUD RATE, PARITY BITS, BITS PER BYTE THING etc
 
 \subsection{Neighbor to Neighbor Packet Layer}
 
-The neighbor to neighbor packet layer builds upon the physical layer to enable the reliable transmission and receiving of `packets' of data over the connection ports. This layer is implemented in software on-board the microcontroller - a state machine representation of the receive logic for this layer can be seen in figure \ref{fig:state-machine-packet-layer-rx} and the transmit logic in figure \ref{fig:state-machine-packet-layer-tx}. Interrupts and the onboard timers of the ATMega644P have been used in the C++ implementation of this logic to make the system as responsive as possible.
+The neighbor to neighbor packet layer builds upon the physical layer to enable the reliable transmission and receiving of `packets' of data over the connection ports. This layer is implemented in software on board the microcontroller - a state machine representation of the receive logic for this layer can be seen in figure \ref{fig:state-machine-packet-layer-rx} and the transmit logic in figure \ref{fig:state-machine-packet-layer-tx}. Interrupts and the onboard timers of the ATMega644P have been used in the C++ implementation of this logic to make the system as responsive as possible.
 
-The basic network packet structure can be seen in figure \ref{fig:neighbor-neighbor-packet}. The length flag holds the number of bytes in the remainder of the packet (including the flags, command and data bytes), the flags byte contains 
+\subsubsection{Neighbor to Neighbor Packets}
+The unit of transmission in the neighbor to neighbor packet layer is the packet - the basic packet structure can be seen in figure \ref{fig:neighbor-neighbor-packet}. The length flag holds the number of bytes in the remainder of the packet (including the flags, command and data bytes), while the flags byte is used for neighbor to neighbor and network layer specific packet information. Details of the bits in the flags byte can be seen below: MAKE THIS A TABLE
+
+\begin{itemize}
+\item Bit 0: Is the packet a network packet - 0 no, 1 yes.
+\item Bit 1: Does this packet require an acknowledgment to be sent back to the sending module - 0 no, 1 yes.
+\item Bit 2: Does this packet require a `global' network acknowledgment to be sent back to the sending module - 0 no, 1 yes.
+\item Bit 3: Is this packet an acknowledgment - 0 no, 1 yes.
+\item Bit 4: Is this packet a `global' acknowledgment - 0 no, 1 yes.
+\end{itemize}
+
+Beyond this the command and data bytes are used by the application layer to send useful data.
+
+\subsubsection{Neighbor to Neighbor Reliable Transmission}
+
+Reliable transmission is one of the responsibilities of the neighbor to neighbor packet layer, and to achieve this an acknowledgment and resend scheme is used. This scheme is described in the previously mentioned figures \ref{fig:state-machine-packet-layer-rx} and  \ref{fig:state-machine-packet-layer-tx} and is used to ensure a packet is sent successfully from device to device.
+
 
 \begin{figure}[h]
 	\centering
